@@ -54,7 +54,7 @@ function AppLoader() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/subscription-sentinel">
       <AppLoader />
       <Routes>
         <Route path="/" element={<Layout />}>
