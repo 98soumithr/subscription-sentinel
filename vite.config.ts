@@ -5,6 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import path from 'path'
 
 export default defineConfig({
+  base: '/subscription-sentinel/',
   plugins: [
     react(),
     tailwindcss(),
@@ -15,7 +16,7 @@ export default defineConfig({
         short_name: 'SubSentinel',
         description: 'Track and manage all your subscriptions locally — no cloud, no account.',
         theme_color: '#7c3aed',
-        background_color: '#0a0a0f',
+        background_color: '#F1F5F9',
         display: 'standalone',
         icons: [
           { src: 'pwa-192x192.png', sizes: '192x192', type: 'image/png' },
